@@ -23,5 +23,6 @@ jobs:
     - name: Build with Gradle
       run: |
         cd AndroidStudioProjects/mybookswap
+        gradle wrapper
         chmod +x ./gradlew
         ./gradlew build
